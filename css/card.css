@@ -1,0 +1,152 @@
+
+.planodefundo{
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=3328&resolucion=1920x1080");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    height: 40rem; 
+}
+
+.botãodoplanos{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.botãopanos{
+    padding: 1rem;
+    background-color: rgb(225 110 0);
+    border-radius: 1rem;
+    width: 24rem;
+    height: 1rem;
+    text-align: center;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.botãopanos a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+
+.botãopanos::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(90deg,transparent,#fff,transparent);
+    transition: 0.5s;
+
+}
+
+.botãopanos:hover::before{
+    left: 100%;
+}
+
+.valores{
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.valordesconto{
+    color: white;
+    font-size: 1.1rem;
+   
+}
+
+.valorpreco{
+    padding-top: 0.5rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+  
+
+}
+
+.valorparcelas{
+    padding-top: 0.5rem;
+    color: white;
+    font-size: 1.1rem;
+    
+}
+.card1{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    margin-top: 1rem;
+    width: 17rem;
+    height: 25.3rem;
+    text-align: center;   
+}
+
+.card2{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    margin-top: 3rem;
+    width: 17rem;
+    height: 25.3rem;
+    text-align: center;   
+}
+
+.card3{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    margin-top: 1rem;
+    width: 17rem;
+    height: 25.3rem;
+    text-align: center;   
+}
+
+
+.card-img-top{
+    padding-top: 0rem;
+    width: 17rem;
+    height: 11rem;
+    border-radius: 0.9rem 0.9rem 1.5rem 1.5rem;
+    
+}
+
+.botãopanos{
+    margin-top: -1.5rem;
+}
+
+.card-text{
+    padding-top: -1rem;
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra3{
+    width: 7rem;
+    height: 0.3rem;
+    border-radius: 3px;
+    background: white;
+    margin: 0.4rem auto 0.5rem;
+    margin-top: -1.5rem;
+}

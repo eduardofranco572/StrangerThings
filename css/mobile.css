@@ -1,0 +1,102 @@
+@media (max-width: 768px){
+    .logo img {
+        width: 100%;
+        height: 15rem;
+    }
+    .textoTitulo{
+        width: 19rem;
+        font-size: 0.4rem;
+        margin-left: 0rem; 
+        text-align: center; 
+    }
+    .botão1{
+        width: 16rem;
+    }
+    .botão2{
+        width: 16rem;
+    }
+    .parte1{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagemfundo img{
+        width: 21rem;
+        height: 14rem;
+    }
+    .imgnovidade img{
+        width: 20rem;
+        height: 12rem;
+        margin-top: 2rem;
+    }
+    .novidade {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .textonovidades {
+        text-align: center;
+    }
+    .paramobileimg{
+        margin-top: -24rem;
+    }
+    .paramobiletexto{
+        margin-top: 13rem;
+    }
+    .paramobileimg2{
+        margin-top: 7rem;
+    }
+    .paramobiletexto2{
+        margin-top: 1rem;
+    }
+    .paramobileimg3{
+        margin-top: -24rem;
+    }
+    .paramobiletexto3{
+        margin-top: 13rem;
+    }
+    .planodefundo{
+        margin-top: 14rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+    .planodefundo{
+        background-image: url("https://www.xtrafondos.com/wallpapers/vertical/stranger-things-welcome-to-hawkins-3328.jpg");
+        background-attachment: none;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: 100%;
+        width: 100%;
+        height: 95rem; 
+    }
+    .textodisponivel{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .conteudo{
+        justify-content: center;
+    }
+    .rodape{
+        margin: 1em 0em;
+    }
+    .rodape__lista{
+        flex-direction: column;
+        margin-left: -3rem;
+    }
+    .nomesite{
+        margin-left: rem;
+    }
+    .body{
+        align-items: center;
+        text-align: center;
+    }
+  
+
+}
